@@ -65,9 +65,6 @@ resource "aws_instance" "demo_ec2_0" {
     http_tokens                 = "required"
     instance_metadata_tags      = "disabled"
   }
-  primary_network_interface {
-    network_interface_id = "eni-00af3c2488743b14e"
-  }
   private_dns_name_options {
     enable_resource_name_dns_a_record    = true
     enable_resource_name_dns_aaaa_record = false
