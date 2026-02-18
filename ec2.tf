@@ -22,8 +22,6 @@ resource "aws_instance" "demo_ec2_0" {
   hibernation                          = false
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
-  ipv6_address_count                   = 0
-  ipv6_addresses                       = []
   key_name                             = "kprwindows"
   monitoring                           = false
   placement_partition_number           = 0
@@ -116,8 +114,6 @@ resource "aws_instance" "demo_ec2_1" {
   hibernation                          = false
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
-  ipv6_address_count                   = 0
-  ipv6_addresses                       = []
   key_name                             = "kprwindows"
   monitoring                           = false
   placement_partition_number           = 0
@@ -161,9 +157,7 @@ resource "aws_instance" "demo_ec2_1" {
     http_tokens                 = "required"
     instance_metadata_tags      = "disabled"
   }
-  primary_network_interface {
-    network_interface_id = "eni-03cc1181d55e8a391"
-  }
+
   private_dns_name_options {
     enable_resource_name_dns_a_record    = true
     enable_resource_name_dns_aaaa_record = false
