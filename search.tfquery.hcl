@@ -23,7 +23,7 @@ list "aws_s3_bucket" "hashitalksdemo_s3" {
   include_resource = true
 
   config {
-    region = "eu-west-1"
+    region = "eu-west-2"
   }
 }
 
