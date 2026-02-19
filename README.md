@@ -168,6 +168,3 @@ Commit the updated:
 
 ---
 
-## License
-
-Add your preferred license (e.g., MIT or Apache-2.0) and include a `LICENSE` file if required.
