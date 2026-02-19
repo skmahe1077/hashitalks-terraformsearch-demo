@@ -1,7 +1,6 @@
-# HashiTalks 2026 — Terraform Search Demo (AWS + HCP Terraform)
+# HashiTalks 2026-Terraform Search Demo (AWS + HCP Terraform)
 
 This repository provides a minimal, VCS-friendly setup to demonstrate **Terraform Search** using the **AWS provider** in **HCP Terraform**. The focus is on discovering existing AWS resources from **HCP Terraform (Search & Import)** or via the Terraform CLI (`terraform query`).  
-This repo is designed for a live session/demo where **code generation is shown**, while **import/apply is optional and out of scope**.
 
 ---
 
