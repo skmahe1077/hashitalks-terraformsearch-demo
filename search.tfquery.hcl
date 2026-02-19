@@ -1,6 +1,5 @@
 list "aws_instance" "demo_ec2" {
   provider = aws
-  limit    = 50
 
   include_resource = true
 
@@ -9,7 +8,7 @@ list "aws_instance" "demo_ec2" {
 
     filter {
       name   = "tag:Name"
-      values = ["demo-search-import-*"]
+      values = ["hashitalks2026-demo-*"]
     }
 
     filter {
